@@ -1,0 +1,13 @@
+<table>
+  <thead>
+  <th id="name">Product Name <i class="fas fa-sort" (click)="sort('name', isAscending)"></i></th>
+  <th id="price">Price <i class="fas fa-sort" (click)="sort('price', isAscending)"></i></th>
+  <th id="category">Category <i class="fas fa-sort " (click)="sort('category', isAscending)" ></i></th>
+</thead>
+
+<tr *ngFor="let product of products" >
+  <td>{{product.name}}</td>
+  <td>{{product.price}}</td>
+  <td>{{product.category }}</td>
+</tr>
+</table>

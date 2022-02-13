@@ -1,0 +1,54 @@
+ input[type=text] {
+    width: 100%;
+    padding: 8px 7px;
+    border: 1px solid #393939;
+    border-radius: 4px;
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+    font-weight: normal;
+    color:#434343;
+    margin-bottom: 24px;
+   
+  }
+
+
+  label{
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+    font-weight: normal;
+    color:#1A1A1A;
+    margin-top:24px;
+  }
+
+  input[type=button] {
+    width: 100%;
+    border-radius: 4px;
+   margin-top:32px;
+   height: 36px;
+   font-family: 'Source Sans Pro';
+   font-size: 14px;
+  background-color: #0063E6;
+   color:#FFFFFF;
+   border :none;
+  }
+
+  
+  input[type=button]:hover{
+
+    
+  background-color: #f0f6ff;
+  color:black;
+
+   
+  }
+
+  .container
+  {
+    margin-top:40px;
+    margin-left: 30px;
+    width:35%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
